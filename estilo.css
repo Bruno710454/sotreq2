@@ -2,3 +2,7 @@ h1 {
     background-color: coral;
     color: aquamarine;
 }
+
+* {
+    background-color: darkgoldenrod;
+}
