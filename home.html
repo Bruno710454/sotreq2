@@ -6,7 +6,53 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1 onclick="teste()">teste12</h1>
+    <main>
+        <div class="form">
+            <h2>PREENCHIMENTO DO EMAIL</h2>
+            <form action="">
+                <p>Nome</p>
+                <input type="nome" class="input-form" id="nome">
+                <p>Matricula</p>
+                <input type="number" class="input-form" id="matricula">
+                <p>Cargo</p>
+                <input type="text" class="input-form" id="cargo">
+                <div class="sex">
+                    <p>Sexo:</p>
+                    <label>
+                        <input type="radio" name="op" id="op" value="F" class="Fe"><p>F</p>
+                    </label>
+                    <label>
+                        <input type="radio" name="op" id="op" value="M" class="Ma"><p>M</p>
+                    </label>
+        
+                </div>
+            </form>
+            <h4 class="button" onclick="gerar()">GERAR</h4>
+        </div>
+        <div class="tudo">
+            <div class="nome2" id="tes">
+                <h1 id="vazio">Vazio</h1>
+                 <div>
+                     <h1 id="infonome"></h1>
+                     <p id="compr"></p>
+                     <p id="corpo"></p>
+                     <p id="despedida"></p>
+                 </div>
+                <div>
+                    <h1 id="infonome2"></h1>
+                    <p id="compr2"></p>
+                    <p id="corpo2"></p>
+                    <p id="despedida2"></p>
+                </div>
+                <div>
+                    <h1 id="infonome3"></h1>
+                    <p id="compr3"></p>
+                    <p id="corpo3"></p>
+                    <p id="despedida3"></p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
 <script src="index.js"></script>
