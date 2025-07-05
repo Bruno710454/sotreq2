@@ -109,6 +109,13 @@ main {
     color: #081C28;
     
 
+
+
+
 }
 
-
+.bloco {
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.5); /* Sombra externa */
+    margin-top: 10px;
+    border-radius: 8px;
+}
